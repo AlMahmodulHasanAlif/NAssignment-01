@@ -6,3 +6,10 @@ function filterEvenNumbers(Number:number[]):number[]{
 
 const result = filterEvenNumbers([1, 2, 3, 4, 5, 6]); 
 console.log(result);
+
+//Problem-2
+function reverseString(String:string):string{
+    return String.split('').reverse().join('');
+}
+const reversed = reverseString("is it working?");
+console.log(reversed);  
