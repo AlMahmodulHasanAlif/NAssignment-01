@@ -13,3 +13,16 @@ function reverseString(String:string):string{
 }
 const reversed = reverseString("is it working?");
 console.log(reversed);  
+
+//Problem-3
+type StringOrNumber = string | number;
+
+function checkType(stringOrNumber: StringOrNumber): string|number {
+    if (typeof stringOrNumber === "string") {
+        return ("String");
+    } else {
+        return ("Number");
+    }
+}
+const type1 = checkType(42);
+console.log(type1);
