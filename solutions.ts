@@ -89,8 +89,8 @@ class Student extends Person {
     }
 }
 
-const student = new Student("Alice", 20, "A");
-console.log(student.getDetails());
+// const student = new Student("Alice", 20, "A");
+// console.log(student.getDetails());
 
 
 
@@ -102,4 +102,4 @@ function getIntersection(one: number[], two: number[]): number[] {
     return one.filter(value => two.includes(value));
 }
 
-console.log(getIntersection([1, 2, 3, 4, 5], [3, 4, 5, 6,7]));
+// console.log(getIntersection([1, 2, 3, 4, 5], [3, 4, 5, 6,7]));
