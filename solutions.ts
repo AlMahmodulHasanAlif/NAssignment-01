@@ -26,3 +26,13 @@ function checkType(stringOrNumber: StringOrNumber): string|number {
 }
 const type1 = checkType(42);
 console.log(type1);
+
+//Problem-4
+
+function getProperty<T, K extends keyof T>(obj: T, key: K): T[K] {
+    return obj[key];
+}
+
+const user = { id: 1, name: "John Doe", age: 21 };
+
+console.log(getProperty(user, "name"));
